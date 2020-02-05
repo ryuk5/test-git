@@ -95,3 +95,26 @@ git branch nom-du-branche
 le faite d'écrire él commande héthi fél terminal
 it didn't change us to that branch mazélna 3lé él master branch
 ki téktéb git status => i9ollék rak on the main branch
+
+So to  Switch from branch to another branch :
+git checkout nom-du-branche
+
+----------------------------------------------------------------
+Let's say we wanna merge the code :
+lézmék tkoun fél master branch:
+git merge login 
+1- git merge nom-du-branch (nom-du-branch éli t7éb él code éli téktéb féha be merged m3a my code)
+==> l'éxécution de cette commande bch t7éllék fenétre
+2- ténzéll 3lé 'i'
+3- téktéb fél commande line why this merge is neccassery
+	example : Added login
+4- tézéll 3lé bouton ESC
+5-téktéb :wq
+6- Enter
+
+=>tawa ki tabda fél master branch u can see él changes éli sarou fél 
+login branch
+
+
+-------------------------------------------------------------------
+Now we will work with remote repository (GitHub)
