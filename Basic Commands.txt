@@ -63,5 +63,14 @@ lézémna :
 2-then commit them with this command : 
 	git commit -m 'changed app.js'
 	git commit -m 'changed nom-du-fichier.ext'
+(We skipped the whole editing stage)
 
-lol
+-----------------------------------------------------------------------
+How to use git ignore ? :
+gitignore is a file that we can include the files or the folders that we don't
+want to include in our repository at all
+(even if we use git add . to add everything its not gonna add the .gitignore file)
+
+tous simplement we write then name of the file in the .gitignore file so it will not bonna be included
+najmou nésta3mlou the same faza 3lé directorys
+/nom-du-directory kénék bch t7otou fél .gitignore 
