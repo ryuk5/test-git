@@ -28,4 +28,40 @@ touch index.html ==> tasna3 fichier .ext
 git config --global user.name 'Mohamed Amine Ben Ammar'
 git config --global user.email 'Mohamed Amine Ben Ammar@gmial.com'
 4) ajout d'un fichier (par exemple index.html)
-git add index.html
+git add index.html => bél commande héthi 7atinéh fi blassa ésmha sataging area 9bal maitém él ba3thane bté3ou bérrasmi
+**to see if sarou des changements nésta3mlou git status
+5)kénék u wanna remove it from that staging area (éli hiya él blassa 9bal maisir féha él ba3théne) 
+git rm --cached index.html
+
+**fazette
+git add *.html => il ajoute aye 7aja.html
+git add . => add everything 
+
+========> until now we still haven't commited them yet
+
+ *******
+ki yabda 3andék a file déja fél staging area ou tu le modifie ou ta3méll git status tal9a ke sar 3lih changement
+ki yabda fichier tu le mdifier lézmék t3awéd t7otou fél staging area>
+ki ta3méll add yarja3 lél staging area
+
+6) 1- git commit (commande chéi7a man8ir options)
+béhi l'éxécution de cette commande leads to i7éllék vm editor 
+u can't type so énzéll 3lé la lettre 'i'
+   2-  i : insert mode (wa9tha u can type fél terminal)
+	aye 7aja 9odémha # its a comment 
+	néktbou (ou a7na fél insertion mode)
+intial commit (ou tous simplement na7i él comment)
+   3- enzelle ESC bch to5roje mél insert mode
+   4- néktbou :wq
+
+==>él files éli kénou fél staging area now are commited
+
+2 émé facon la plus utilisé:
+ki yabda 3ana des changments sur des fichiers : 
+lézémna : 
+1-adding them to the staging area 
+2-then commit them with this command : 
+	git commit -m 'changed app.js'
+	git commit -m 'changed nom-du-fichier.ext'
+
+lol
