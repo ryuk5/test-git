@@ -1,0 +1,31 @@
+git init //initialize local git repository
+
+git add <file> //Add file(s) to index
+
+git status //Check status of working tree
+
+git commit //Commit changes in index (options)
+
+//Github
+git push //Push to remote repository
+
+git pull //Pull latest from repository
+
+git clone //Clone repository into a new directory
+
+
+-----------------------------------------------------
+git --version : versioon du git installer
+
+touch index.html ==> tasna3 fichier .ext
+
+
+
+
+1) tasna3 les fichiers
+2)git init
+3)la configuration add ur name and email 
+git config --global user.name 'Mohamed Amine Ben Ammar'
+git config --global user.email 'Mohamed Amine Ben Ammar@gmial.com'
+4) ajout d'un fichier (par exemple index.html)
+git add index.html
