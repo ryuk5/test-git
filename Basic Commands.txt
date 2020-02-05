@@ -62,7 +62,9 @@ lézémna :
 1-adding them to the staging area 
 2-then commit them with this command : 
 	git commit -m 'changed app.js'
-	git commit -m 'changed nom-du-fichier.ext'
+	git commit -m 'nom-du-changement nom-du-fichier.ext'
+	git commit -m 'another change' ==> it will commit everything (kol chai directorys and files + don't forget to add them to the staging area 9bal :D)
+	git commit -m 'nom-du-changement' 
 (We skipped the whole editing stage)
 
 -----------------------------------------------------------------------
@@ -73,4 +75,23 @@ want to include in our repository at all
 
 tous simplement we write then name of the file in the .gitignore file so it will not bonna be included
 najmou nésta3mlou the same faza 3lé directorys
-/nom-du-directory kénék bch t7otou fél .gitignore 
+/nom-du-directory kénék bch t7otou fél .gitignore
+*.txt =>aye fichier dans l'ext est .txt
+
+------------------------------------------------------------------------
+
+Branches:
+Au lieu de modifier the main code té5dém 3lé partie de ce code until u finish the work 
+then the part coeded will be added later
+
+1-Create a branch called what ever 
+2-work on that branch 
+3-it gonna be commited but its not gonna be committed to the main branch
+
+
+to create a branch:
+git branch mybranch
+git branch nom-du-branche
+le faite d'écrire él commande héthi fél terminal
+it didn't change us to that branch mazélna 3lé él master branch
+ki téktéb git status => i9ollék rak on the main branch
